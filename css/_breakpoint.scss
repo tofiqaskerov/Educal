@@ -1,0 +1,630 @@
+@media (max-width: 279px) {
+    #loader {
+        .educal-center {
+            left: 20% !important;
+        }
+    }
+}
+@media (max-width:309px){
+    .all{
+        .curriculum{
+            .accardion{
+                .accardion-item{
+                    .accardion-collapse{
+                        .accardion-body{
+                            .curriculum-content{
+                                .curriculum-info{
+                                   display: block !important;
+                                   i{
+                                       display: block;
+                                   }
+                                   h3{
+                                       display: block;
+                                   }
+                                }
+                                .curriculum-meta{
+                                    display: block !important;
+                                    .time{
+                                        display: block;
+                                    }
+                                    .question{
+                                        display: block;
+                                        span{
+                                            
+                                            display: inline-block;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+  
+}
+@media (max-width: 321px){
+
+}
+@media (max-width:576px) {
+    #header {
+        padding-bottom: 10px;
+        padding-top: 0%;
+        padding-left: 0px;
+        padding-right: 0px;
+        justify-content: space-between;
+
+        .container {
+            width: 100%;
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: 0;
+            margin-left: 0;
+
+            .all {
+                justify-content: space-between;
+                padding: 0px 10px;
+
+                .educal-category {
+                    .logo {
+                        &::after {
+                            display: none;
+                        }
+                    }
+
+                    .category {
+                        display: none;
+                    }
+                }
+
+                .right {
+                    .nav-menu {
+                        display: none;
+                    }
+
+                    .button {
+                        display: none;
+                    }
+                    .sidebar-menu{
+                        display: block;
+                    }
+                }
+            }
+
+        }
+        #sidebar{
+            .menu{
+                .nav-menu{
+                    display: block;
+                }
+            }
+        }
+
+
+    }
+    #business{
+        .background-i{
+            .left-blue{
+                display: none;
+            }
+            .red{
+                top: 12%;
+            }
+        }
+        .all{
+            .title{
+                .page{
+                    ul{
+                        &:nth-child(2){
+                            display: block !important;
+                        }
+                    }
+                }
+               h5{
+                   font-size: 26px;
+               }
+            }
+            .info{
+                display: block;
+
+            }
+            .tab-btn{
+                ul{
+                    .item{
+                        span{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .description{
+                .other{
+                    .mans{
+                        display: block;
+                        .item{
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+            .curriculum{
+                .accardion{
+                    .accardion-item{
+                        .accardion-collapse{
+                            .accardion-body{
+                                .curriculum-content{
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .reviews{
+                .comments{
+                    .comment-box{
+                        .info{
+                            .person{
+                                flex-wrap: wrap;
+                            }
+                        }
+                    }
+                }
+            }
+            .members{
+                .course-member{
+                    .member-item{
+                        .member-info{
+                            &::after{
+                                display: none;
+                            }
+                        }
+                        .course-info{
+                            padding-left: 0%;
+                        }
+                        .review-info{
+                            padding-left: 0%;
+                        }
+                        .rating-info{
+                            padding-left: 0%;
+                        }
+                        .info-member{
+                            margin-top: 25px;
+                            margin-bottom: 0%;
+                        }
+                    }
+                }
+            }
+            .course-related{
+                .responsive{
+                    .box{
+                        padding-right: 10px ;
+                    }
+                }
+            }
+        }
+        .sidebar{
+            padding: 0%;
+            .background-ico{
+                img{
+                    right: -10px;
+                }
+            }
+            .first-widget{
+                .all-video{
+                    .video{
+                        img{
+                            height: 230px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    #long-card{
+        .card{
+            padding: 50px 43px 53px;
+            .bg-ico{
+                display: none;
+            }
+            .title{
+                
+                h3{
+                    font-size: 25px;
+                }
+            }
+            .button-side{
+                justify-content: start;
+                margin-top: 30px;
+            }
+        }
+    }
+    #footer{
+        .top-footer{
+            .block-3{
+                padding: 0%;
+            }
+        }
+    }
+}
+
+@media (min-width: 280px) and (max-width:576px) {
+    #loader {
+
+        .educal-center {
+
+            left: 33% !important;
+
+            .text {
+                text-align: center;
+
+                .educal {
+                    width: 200px;
+                }
+
+                .pen-animation {
+                    width: 180px !important;
+
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width:768px) {
+    #loader {
+
+        .educal-center {
+
+            //   left: 35% !important;
+            .text {
+
+                // text-align: center;
+                .educal {
+                    width: 150px;
+                }
+
+                .pen-animation {
+                    width: 180px !important;
+
+                    img {
+                        width: 40px !important;
+                        top: -40px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    #header {
+        padding-bottom: 10px;
+        padding-top: 0%;
+        padding-left: 0px;
+        padding-right: 0px;
+        .all {
+            .educal-category {
+                .logo {
+                    &::after {
+                        display: none;
+                    }
+                }
+
+                .category {
+                    display: none;
+                }
+            }
+
+            .right {
+                .nav-menu {
+                    display: none;
+                }
+
+                .button{
+                    padding-top: 30px;
+                    padding-right: 30px;
+                }
+                .sidebar-menu{
+                    display: block;
+                }
+            }
+        }
+        #sidebar{
+            .menu{
+                .nav-menu{
+                    display: block;
+                }
+            }
+        }
+    }
+    #business{
+        .background-i{
+            .red{
+                top: 12%;
+            }
+        }
+        .all{
+            .title{
+               h5{
+                   font-size: 40px;
+               }
+            }
+            .info{
+                .teacher{
+                    margin: 0px 50px 30px 0px;
+                }
+            }
+            .description{
+                .other{
+                    .mans{
+                        display: block;
+                        .item{
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+            .members{
+                .course-member{
+                    .member-item{
+                       .course-info{
+                           padding-left: 0%;
+                       }
+                       .review-info{
+                           padding-left: 0%;
+                       }
+                       .rating-info{
+                           padding-left: 0%;
+                       }
+                        
+                    }
+                }
+            }
+            
+        }
+        .sidebar{
+            padding: 0%;
+            .background-ico{
+                img{
+                    right: -10px;
+                }
+            }
+            .first-widget{
+                .all-video{
+                    .video{
+                        img{
+                            height: 250px;
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+    #long-card{
+        .card{
+            padding: 50px 43px 53px;
+            .bg-ico{
+                img{
+                    right: -80%;
+                }
+            }
+            .title{
+                
+                h3{
+                    font-size: 30px;
+                }
+            }
+            .button-side{
+                justify-content: start;
+                margin-top: 30px;
+            }
+        }
+    }
+    #footer{
+        .top-footer{
+            .block-3{
+                padding: 0%;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    #header {
+        padding-bottom: 10px;
+        padding-top: 0%;
+        padding-left: 0px;
+        padding-right: 0px;
+        justify-content: space-between;
+
+        .container {
+           
+
+            .all {
+                justify-content: space-between;
+                padding: 0px 10px;
+                width: 100%;
+                .educal-category {
+                    .logo {
+                        &::after {
+                            display: none;
+                        }
+                    }
+
+                    .category {
+                        display: none;
+                    }
+                }
+
+                .right {
+                    .nav-menu {
+                        display: none;
+                    }
+
+                    .button{
+                        padding-top: 30px;
+                        padding-right: 30px;
+                    }
+                    .sidebar-menu{
+                        display: block;
+                    }
+                }
+            }
+
+        }
+        #sidebar{
+            .menu{
+                .nav-menu{
+                    display: block;
+                }
+            }
+        }
+
+
+    }
+    #business{
+        .background-i{
+            .red{
+                top: 12%;
+            }
+        }
+        .sidebar{
+            padding: 0%;
+            
+            .first-widget{
+                .all-video{
+                    .video{
+                        img{
+                            height: 370px;
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+    #long-card{
+        .card{
+            padding-right: 40px;
+            padding-left: 40px;
+            // .bg-ico{
+            //     img{
+            //         right: -80%;
+            //     }
+            // }
+            .title{
+                
+                h3{
+                    font-size: 31px;
+                }
+            }
+            // .button-side{
+            //     justify-content: start;
+            //     margin-top: 30px;
+            // }
+        }
+    }
+    #footer{
+        .top-footer{
+            .block-3{
+                padding: 0%;
+            }
+        }
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+    #header {
+        padding-bottom: 10px;
+        padding-top: 0%;
+        padding-left: 0px;
+        padding-right: 0px;
+        .all {
+            justify-content: space-between;
+            padding: 0px 10px;
+            width: 100%;
+            .right {
+                .nav-menu {
+                    display: none;
+                }
+
+                .button{
+                    padding-top: 30px;
+                    padding-right: 30px;
+                }
+                .sidebar-menu{
+                    display: block;
+                }
+            }
+        }
+         #sidebar{
+            .menu{
+                .nav-menu{
+                    display: block;
+                }
+            }
+        }
+    }
+    #business{
+        .background-i{
+            .red{
+                top: 12%;
+            }
+        }
+        .all{
+            
+            .course-related{
+                .responsive{
+                    .box{
+                        
+                        .details{
+                            
+                            .free{
+                                width: 80px;
+                                
+                            }
+                            .know-details{
+                                padding-left: 5px;
+                                a{
+                                   padding: 0%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .sidebar{
+            padding: 0%;
+            
+        }
+    }
+    #long-card{
+        .card{
+            
+            // .bg-ico{
+            //     img{
+            //         right: -80%;
+            //     }
+            // }
+            .title{
+                
+                h3{
+                    font-size: 40px;
+                }
+            }
+            // .button-side{
+            //     justify-content: start;
+            //     margin-top: 30px;
+            // }
+        }
+    }
+    #footer{
+        .top-footer{
+            .block-3{
+                padding: 0%;
+            }
+        }
+    }
+}

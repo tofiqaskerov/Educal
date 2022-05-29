@@ -1,0 +1,89 @@
+@import '_variable';
+
+@mixin development-span ($bg-cl, $font-weight, $font-size, $content-cl)  {
+    background-color: $bg-cl;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    color: $content-cl;
+}
+@mixin title-h5 ($font-size, $font-weight, $color) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $color;
+}
+@mixin all-info-txt-h5{
+    color: rgb(160, 157, 157);
+    font-size: 14px;
+}
+@mixin all-info-txt-span-cl{
+    font-weight: 650;
+}
+@mixin all-info-mb($mb){
+    margin-bottom: $mb;
+}
+@mixin all-description-other-mb($mb){
+    margin-bottom: $mb;
+}
+@mixin all-description-h3-h4{
+    color: var(--all-description-h3-cl);
+    font-size: 26px;
+    font-weight: 700;
+}
+@mixin all-p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #6d6e75;
+    margin-bottom: 15px;
+    line-height: 26px;
+}
+@mixin all-reviews-ratingstar-h5{
+    font-size: 100px;
+    line-height: 70px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+@mixin form-menu-input{
+    width:100%;
+    height: 56px;
+    background: #f3f4f8;
+    border: 2px solid  #f3f4f8;
+    border-radius:4px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 0px 22px;
+    outline: none;
+    transition: .3s ease;
+}
+@mixin form-menu-textarea{
+    height: 150px;
+    resize: none;
+    padding: 20px;
+    width: 100%;
+    border: 2px solid #f3f4f8 ;
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none;
+    background-color:  #f3f4f8 ;
+    margin-bottom: 20px;
+    transition: .3s ease;
+}
+@mixin form-menu-btn{
+    background-color: #2B4EFF ;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 4px ;
+    font-weight: 600;
+    transition: .2s ease;
+}
+@mixin member-item-h5{
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 0;
+    font-weight: 750 ;
+}
+@mixin member-item-span {
+    font-size: 15px;
+    color: #53545b ;
+}
