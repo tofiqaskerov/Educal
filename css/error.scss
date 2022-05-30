@@ -1,0 +1,53 @@
+@import '_variable.scss';
+@import '_headerfooter';
+@import '_mixin';
+
+#error-side{
+    padding: 260px 0px 200px 0px;
+    .error-center{
+        text-align: center;
+        .error-img{
+            margin-bottom: 50px;
+            width: 100%;
+        }
+        .error-text{      
+            .txt{
+                margin-bottom: 45px;
+                h3{
+                    font-size: 70px;  
+                    font-weight: 700;
+                    color: #0E1133;
+                    margin-bottom: 15px;
+                }
+               p{
+                    font-size: 20px;
+                    color: #53545b;
+                    
+               }
+
+            }
+            .button{
+                a{
+                    height: 46px;
+                    line-height: 40px;
+                    border: 2px solid #2b4eff;
+                    background: #2b4eff;
+                    text-decoration: none;
+                    color: #ffffff;
+                    padding: 0px 28px;
+                    display: inline-block;
+                    border-radius: 4px;
+                    transition: .3s ease;
+                    &:hover {
+                        box-shadow: 0px 10px 15px rgb(197, 196, 196);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@import '_breakpoint';
+@import '_breakpoint-Error';
