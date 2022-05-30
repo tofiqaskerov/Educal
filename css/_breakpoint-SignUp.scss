@@ -1,0 +1,188 @@
+@media (max-width:576px){
+    #sign-up{
+        
+        .sign-bg-ico{
+            display: none;
+        }
+        .txt{
+            
+            h2{
+                font-size: 33px;
+            }
+           
+        }
+        .sign{
+            margin: 0%;
+            padding: 30px 20px 25px;
+            .google{
+                padding: 0%;
+                .txt-center{
+                    .button{
+                        
+                        padding-left: 15px;
+                        &::before{
+                            
+                            left: -70%;
+                        } 
+                        &:hover{
+                            &::before{
+                                width: 180%;
+                            }
+                           
+                        }
+                    }
+                }
+            }
+           
+        }
+        
+
+    }
+}
+@media (min-width:567px) and (max-width:768px){
+    #sign-up{
+        
+        .sign-bg-ico{
+           .big-img{
+              left: 0%;
+              width: 550px;
+           }
+           .person{
+               top: 75%;
+               left: 0%;
+           }
+           .zigzag{
+               top: 48%;
+               left: 5%;
+           }
+           .person-2{
+               top: 75%;
+               right: 0%;
+           }
+           .dots{
+               right: 5%;
+           }
+           .circle{
+               top: 40%;
+               right: 2%;
+           }
+           .flower{
+               right: 0%;
+               top: 92%;
+           }
+        }
+        .sign{
+            
+            .google{
+                padding: 0%;
+                .txt-center{
+                    .button{
+                      
+                        &::before{
+                            
+                        } 
+                    }
+                }
+            }
+           
+        }
+
+    }
+}
+@media (min-width:768px) and (max-width: 992px){
+    #sign-up{
+        .sign-bg-ico{
+            .big-img{
+               left: 10%;
+               width: 624px;
+            }
+            .person{
+                top: 75%;
+                left: 0%;
+            }
+            .zigzag{
+                top: 48%;
+                left: 5%;
+            }
+            .person-2{
+                top: 75%;
+                right: 0%;
+            }
+            .dots{
+                right: 5%;
+            }
+            .circle{
+                top: 40%;
+                right: 2%;
+            }
+            .flower{
+                top:92%;
+                right: 5%;
+            }
+         }
+         .sign{
+            .google{
+               .txt-center{
+                   .button{
+                       &:hover{
+                          &::before{
+                             width: 170%;
+                          }
+                       }
+                       &::before{
+                           left: -60%;
+                       }
+                      
+                   }
+               }
+            }
+         }
+    }
+}
+@media (min-width:992px) and (max-width: 1200px){
+    #sign-up{
+        .sign-bg-ico{
+            
+            .person{
+                top: 75%;
+                left: 8%;
+            }
+            .zigzag{
+                top: 58%;
+                left: 12%;
+            }
+            .person-2{
+                top: 75%;
+                right: 8%;
+            }
+            .dots{
+                right: 18%;
+            }
+            .circle{
+                top: 45%;
+                right: 11%;
+            }
+            .flower{
+                top:92%;
+                right: 13%;
+            }
+         }
+         .sign{
+            .google{
+               .txt-center{
+                   .button{
+                       &:hover{
+                          &::before{
+                             width: 170%;
+                          }
+                       }
+                       &::before{
+                           left: -55%;
+                       }
+                      
+                   }
+               }
+            }
+         }
+    }
+}

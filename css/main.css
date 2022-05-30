@@ -57,8 +57,8 @@
   background-color: var(--header-bg-cl);
   z-index: 50;
   padding: 0px 0px 20px 0px;
-  -webkit-box-shadow: 0px 30px 40px 0px rgba(1, 11, 60, 0.397);
-          box-shadow: 0px 30px 40px 0px rgba(1, 11, 60, 0.397);
+  -webkit-box-shadow: 0px 30px 40px 0px rgba(1, 11, 60, 0.14);
+          box-shadow: 0px 30px 40px 0px rgba(1, 11, 60, 0.14);
   -webkit-transition: .3s ease;
   transition: .3s ease;
   position: fixed;
@@ -842,6 +842,7 @@
 
 #footer .bottom-footer .txt {
   text-align: center;
+  padding: 0%;
 }
 
 #footer .bottom-footer .txt p {
@@ -991,7 +992,7 @@
   outline: none;
   color: #2b4eff;
   border: #2b4eff  2px solid;
-  z-index: 100;
+  z-index: 80;
 }
 
 #business {

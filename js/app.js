@@ -1,14 +1,14 @@
 
 /*-----------------LOADER--------------*/
 
-// const loader = document.getElementById('loader')
+const loader = document.getElementById('loader')
 
-// window.onload = function(){
-//     loader.classList.add('active-loader')
-//     setTimeout(() =>{
-//         loader.classList.remove('active-loader')
-//     },6500)
-// }
+window.onload = function(){
+    loader.classList.add('active-loader')
+    setTimeout(() =>{
+        loader.classList.remove('active-loader')
+    },6500)
+}
 
 
 /*-------------HEADER WINDOW SCROLL---------------*/
@@ -160,17 +160,17 @@ $('.responsive').slick({
 
 
 /*-------DROPDOWN CLICK--------------------*/
-// const plus = document.querySelectorAll('.plus')
-// const childDrp = document.querySelectorAll('.child-dropdown')
+const plus = document.querySelectorAll('.plus')
+const childDrp = document.querySelectorAll('.child-dropdown')
 
-// for(let i = 0; i<= plus.length; i++ ){
-//     plus[i].onclick = function(){
+for(let i = 0; i<= plus.length; i++ ){
+    plus[i].onclick = function(){
       
-//         plus[i].classList.toggle('plusdeg')
-//         childDrp[i].classList.toggle('openDrp')
-//     }
+        plus[i].classList.toggle('plusdeg')
+        childDrp[i].classList.toggle('openDrp')
+    }
     
-// }
+}
 
 
 
